@@ -1,0 +1,13 @@
+[httpServer]
+addr="0.0.0.0:8090"
+
+
+[mysql]
+dsn="root:123@tcp(mysql:3306)/paper?charset=utf8mb4&parseTime=True&loc=Local"
+
+
+[mongo]
+addrs    = ["localhost:27018"]
+userName = "root"
+passWord = "example"
+maxPool =2
